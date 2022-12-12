@@ -5,6 +5,8 @@
 
 stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
 
+
+
 aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
 
 하지만 이미지 업로드 실패
