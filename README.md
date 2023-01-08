@@ -1,3 +1,4 @@
+스프링부트,JPA를 이용한 간단한 쇼핑몰2
 
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/69129562/202893022-72b026d6-872c-4ea9-bbf9-8a4b88124441.gif)
 
