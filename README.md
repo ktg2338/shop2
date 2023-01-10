@@ -16,20 +16,20 @@ stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
 |Cart|Patch|장바구니 수정|/cartItem/{cartItemId}|장바구니 내역을 수정한다.|
 |Cart|Delete|장바구니 삭제|/cartItem/{cartItemId}|장바구니 내역을 삭제한다.|
 |Cart|Post|장바구니 상품추가|/cart/orders|기존 장바구니에 상품을 추가한다.|
-|Item|Get|상품추가 폼(admin)|관리자 상품추가 폼| 
-|Item|Post|상품추가(admin)|관리자 상품추가|
-|Item|Get|상품수정 폼(admin)|관리자 상품수정 폼|
-|Item|Post|상품정보 수정(admin)|관리자 상품정보 수정|
-|Item|Get|상품관리(admin)|관리자 상품 관리창|
-|Item|Get|상품정보|  |
-|Main|Get|메인페이지 Pageable관리|메인페이지의 상품을 표시하는 최대 갯수와 페이징을 한다|
-|Member|Get|회원가입 폼|  |
-|Member|Post|회원가입|  |
-|Member|Get|로그인 폼|  |
-|Member|Get|로그인 오류|아이디와 비밀번호 validation|
-|Order|Post|주문|  |
-|Order|Get|주문 내역|  |
-|Order|Post|주문 취소|  |
+|Item|Get|상품추가 폼(admin)|/admin/item/new|관리자 상품추가 폼| 
+|Item|Post|상품추가(admin)|/admin/item/new|관리자 상품추가|
+|Item|Get|상품수정 폼(admin)|/admin/item/{itemId}|관리자 상품수정 폼|
+|Item|Post|상품정보 수정(admin)|/admin/item/{itemId}|관리자 상품정보 수정|
+|Item|Get|상품관리(admin)|/admin/items,/admin/items/{page}|관리자 상품 관리창 Pageable|
+|Item|Get|상품정보|/item/{itemId}|  |
+|Main|Get|메인페이지 Pageable관리|/|메인페이지의 상품을 표시하는 최대 갯수와 페이징을 한다|
+|Member|Get|회원가입 폼|/new|  |
+|Member|Post|회원가입|/new|  |
+|Member|Get|로그인 폼|/login|  |
+|Member|Get|로그인 오류|/login/error|아이디와 비밀번호 validation|
+|Order|Post|주문|/order|  |
+|Order|Get|주문 내역|/orders,/orders/{page}|주문내역 Pageable|
+|Order|Post|주문 취소|/order/{orderId}/cancel|   |
 
 
 aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
