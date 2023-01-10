@@ -6,8 +6,11 @@
 
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/69129562/202893022-72b026d6-872c-4ea9-bbf9-8a4b88124441.gif)
 
+<br><br>
+
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/69129562/202893221-ae418d60-da19-4b77-97f2-35fb9463eb01.gif)
 
+<br><br>
 Project stack
 -------------
 >Spring Boot<br>
@@ -20,7 +23,7 @@ Project stack
 >스프링 시큐리티를 이용한 회원가입 및 로그인<br>
 >연관 관계 매핑<br>
 
-<br />
+<br><br>
 
 |API 종류|HTTP Method|기능|URL|설명|
 |----------|---|-----|----|---------------------|
@@ -44,7 +47,7 @@ Project stack
 |Order|Get|주문 내역|/orders,/orders/{page}|주문내역 Pageable|
 |Order|Post|주문 취소|/order/{orderId}/cancel|   |
 
-
+<br><br>
 aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
 
 하지만 이미지 업로드 실패
