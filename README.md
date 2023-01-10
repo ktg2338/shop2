@@ -8,12 +8,29 @@
 stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
 
 <br />
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-<br />
+
+|API 종류|HTTP Method|기능|URL|설명|
+|------|---|---|----|---------------------|
+|Cart|Post|장바구니 상품주문|/cart|장바구니의 상품을 주문한다.|
+|Cart|Get|장바구니 내역|/cart|장바구니에 담긴 상품을 조회한다.|
+|Cart|Patch|장바구니 수정|/cartItem/{cartItemId}|장바구니 내역을 수정한다.|
+|Cart|Delete|장바구니 삭제|/cartItem/{cartItemId}|장바구니 내역을 삭제한다.|
+|Cart|Post|장바구니 상품추가|/cart/orders|기존 장바구니에 상품을 추가한다.|
+|Item|Get|상품추가 폼(admin)|관리자 상품추가 폼| 
+|Item|Post|상품추가(admin)|관리자 상품추가|
+|Item|Get|상품수정 폼(admin)|관리자 상품수정 폼|
+|Item|Post|상품정보 수정(admin)|관리자 상품정보 수정|
+|Item|Get|상품관리(admin)|관리자 상품 관리창|
+|Item|Get|상품정보|  |
+|Main|Get|메인페이지 Pageable관리|메인페이지의 상품을 표시하는 최대 갯수와 페이징을 한다|
+|Member|Get|회원가입 폼|  |
+|Member|Post|회원가입|  |
+|Member|Get|로그인 폼|  |
+|Member|Get|로그인 오류|아이디와 비밀번호 validation|
+|Order|Post|주문|  |
+|Order|Get|주문 내역|  |
+|Order|Post|주문 취소|  |
+
 
 aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
 
