@@ -10,7 +10,7 @@ stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
 <br />
 
 |API 종류|HTTP Method|기능|URL|설명|
-|--------|---|-----|----|---------------------|
+|----------|---|-----|----|---------------------|
 |Cart|Post|장바구니 상품주문|/cart|장바구니의 상품을 주문한다.|
 |Cart|Get|장바구니 내역|/cart|장바구니에 담긴 상품을 조회한다.|
 |Cart|Patch|장바구니 수정|/cartItem/{cartItemId}|장바구니 내역을 수정한다.|
