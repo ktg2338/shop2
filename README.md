@@ -1,11 +1,24 @@
 
 스프링부트,JPA를 이용한 간단한 쇼핑몰2
+======================================
+<br><br>
+
 
 ![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/69129562/202893022-72b026d6-872c-4ea9-bbf9-8a4b88124441.gif)
 
 ![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/69129562/202893221-ae418d60-da19-4b77-97f2-35fb9463eb01.gif)
 
-stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
+Project stack
+-------------
+>Spring Boot<br>
+>JPA<br>
+>DataJPA<br>
+>Querydsl<br>
+>Thymeleaf<br>
+>Gradle<br>
+>Lombok<br>
+>스프링 시큐리티를 이용한 회원가입 및 로그인<br>
+>연관 관계 매핑<br>
 
 <br />
 
@@ -41,9 +54,4 @@ aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
   - nohub java -jar shop2 0.0.1SNAPSHOT.JAR & -> 무한로딩되고 무반응 -> nohub.out log검토
   
  HikariPool-1 - WARN 1211 --- [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m2s477ms579µs45ns). 
-  
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+
