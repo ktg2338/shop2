@@ -7,7 +7,13 @@
 
 stack : Spring Boot, JPA, DataJPA, Querydsl, Thymeleaf, Gradle, Lombok
 
-<br /><br />
+<br />
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+<br />
 
 aws lightsail의 우분투 서버 구축 성공! 43.200.88.100:8080
 
